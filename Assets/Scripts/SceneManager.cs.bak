@@ -1,0 +1,335 @@
+﻿using UnityEngine;
+using System.Collections;
+using System;
+using UnityEngine.UI;
+
+[RequireComponent (typeof (PersistentObject))]
+public class SceneManager : MonoBehaviour {
+
+	public static SceneManager instance;
+	//public SceneManager instance;
+	
+	public GameObject balloon;
+	public Text pointText;
+	public Text levelText;
+	
+	public int numberOfBalloons = 5;
+	public Color selectedColor = Color.red;  // could get rid off
+	public string selectedColorName = "red"; // could get rid off these use selectedColorIndex instead
+	public int selectedColorIndex = 8;
+	public int numberOfSelectedColorBalloons = 3;
+	public float levelSeconds = 20f;
+	public float minGravity = -1.0f;
+	public float maxGravity = -0.1f;
+
+	//public float levelGravityMultiplier = 0.5f;
+	//public float levelNOFBalloonsMultiplier = 1.2f;
+	public float levelGravityIncrease = 0.5f;
+	public int levelNOFBalloonsIncrease = 5;
+	public int levelNOFSelectedBalloonsIncrease = 3;
+	
+	public struct BalloonStruct {
+		public float instanceTime;		// the time when the balloon is shown
+		public int balloonColorIndex;		// color of the balloon
+		public Color balloonColor;		// color of the balloon
+		public string balloonColorName;		// color of the balloon
+		public Vector3 position;		// position of the balloon
+		public float gravityScale;		// gravityscale of the balloon, others are faster
+	}
+	
+	public int numberOfExistingBalloons = 0;
+	public GameObject exampleBalloon;
+	public GameObject faultBalloon1;
+	public GameObject faultBalloon2;
+	public GameObject faultBalloon3;
+	
+	private int levelPoints = 0;
+	private int totalPoints = 0;
+	private int faults = 0;
+	private int level = 1;
+	public bool gameStarted = false;
+	private float startTime;
+	//private bool gameStopped = false;
+	private static Color32 brown = new Color32(150,75,0,255);
+	private static  Color32 orange = new Color32(255,165,0,255);
+	private static  Color32 purple = new Color32(128,0,128,255);
+	private static  Color32 pink = new Color32(255,192,203,255);
+	private static  Color32 yellow = new Color32(255,255,0,255);
+	private static  Color32 black = new Color32(50,50,50,255);
+	
+	// define the colors used in the balloons
+	public Color[] balloonColors = new Color[] {black, 
+		Color.blue, brown, Color.green, Color.grey,
+		orange,pink, purple,Color.red, Color.white, yellow};
+	
+	// define the color names used in the balloons, use the same order as above!
+	public String[] balloonColorStrings = new String[] {"black", 
+		"blue", "brown", "green", "gray", "orange", "pink", "purple","red", "white", "yellow"}; 
+		
+	public AudioClip[] colorAudioClips = new AudioClip[22] ;  // 2d arrays don't show in inspector, that's why we have double sized 1d array
+	
+	public BalloonStruct[] balloons;
+	private int balloonsInstantiated = 0;
+	
+	private float maxX;  // maximum X axis position where balloons appear
+	private float posY;  // Y axis position where balloons appear
+	
+	void Awake () {
+		Debug.Log("Scenemanagerin awake");
+		Camera cam = Camera.main;
+		Vector3 maxXPoint = new Vector3 (cam.pixelWidth,0f,0f);  
+		maxX = cam.ScreenToWorldPoint(maxXPoint).x - balloon.renderer.bounds.size.x;
+		posY = cam.ScreenToWorldPoint(maxXPoint).y - balloon.renderer.bounds.size.y; // balloons are instantiated below the screen
+	}
+	
+	// Use this for initialization
+	void Start () {
+		Debug.Log("Scenemanagerin startti: gamestarted = " + gameStarted);
+		if( instance == null)
+			instance = this;
+		else {
+			Destroy(gameObject);
+		}
+		if (!gameStarted)
+			StartGame ();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		//Debug.Log (startTheGame + " " + gameStarted);
+		if (gameStarted)
+		{
+			if (balloonsInstantiated < numberOfBalloons)
+			{
+				//Debug.Log ("ei vielä tarpeeksi palloja ");
+	
+				//Debug.Log ("startTime = " + startTime);
+				//Debug.Log ("Time.time = " + Time.time);
+				//Debug.Log ("balloons[balloonsInstantiated].instanceTime = " + balloons[balloonsInstantiated].instanceTime);
+				if ((startTime + balloons[balloonsInstantiated].instanceTime) < Time.time)
+				{
+					//Debug.Log ("luodaan pallo");
+					Vector3 pos = balloons[balloonsInstantiated].position;
+					Quaternion rot = transform.rotation;
+					GameObject instance = Instantiate (balloon, pos, rot) as GameObject;
+					Balloon balloonInstance = instance.GetComponent<Balloon>();
+					balloonInstance.index = balloonsInstantiated;
+					balloonInstance.balloonColorIndex = balloons[balloonsInstantiated].balloonColorIndex;  // .renderer.material.color
+					balloonInstance.balloonColor = balloons[balloonsInstantiated].balloonColor;  // .renderer.material.color
+					balloonInstance.balloonColorName = balloons[balloonsInstantiated].balloonColorName;
+					instance.renderer.material.color = balloons[balloonsInstantiated].balloonColor;
+					instance.rigidbody2D.gravityScale = balloons[balloonsInstantiated].gravityScale;
+					balloonsInstantiated++;
+					numberOfExistingBalloons++;
+				}
+			}
+			else
+			{
+				if (balloonsInstantiated == numberOfBalloons)
+				{
+					if (numberOfExistingBalloons == 0)
+						{
+							gameStarted = false;
+							if (levelPoints > (numberOfSelectedColorBalloons/2))//level completed
+								ShowNextLevelMenu();
+							else
+							{
+								GameFailed();	
+							}
+						}
+				}
+			}
+		}
+	}
+	
+	private void CreateBalloons () {
+		
+		//Debug.Log ("Create balloons");
+		//Debug.Log ("selectedColor = " + selectedColor);
+		
+		balloons = new BalloonStruct[numberOfBalloons];
+		Color defaultColor = Color.clear;  // transparent, can't mix with selectedColor
+		
+		// set balloons instance time, place and gravityscale
+		for (int i = 0; i < numberOfBalloons; i++) 
+		{
+			float instTime = UnityEngine.Random.Range (0f,levelSeconds);
+			balloons[i].instanceTime = instTime;
+			
+			Vector3 pos = new Vector3(0f,0f,100f);  
+			pos.x = UnityEngine.Random.Range (-maxX, maxX);
+			pos.y = posY;
+			//Debug.Log(pos.x + ", " + pos.y);
+			balloons[i].position = pos;
+			
+			float gravScale = UnityEngine.Random.Range (minGravity,maxGravity);
+			balloons[i].gravityScale = gravScale;
+			
+			balloons[i].balloonColorIndex = -1;  // default color
+			balloons[i].balloonColor = defaultColor;  // default color = clear
+			balloons[i].balloonColorName = "default";
+			//Debug.Log ("a=" + defaultColor.a + ", r=" + defaultColor.r + ", b=" +defaultColor.b + ", g=" + defaultColor.g); 
+			
+		}
+		
+		// sort the balloon array ordered by instance time
+		Array.Sort<BalloonStruct>(balloons, (x,y) => x.instanceTime.CompareTo(y.instanceTime));
+		
+		if (numberOfSelectedColorBalloons > numberOfBalloons)      // just for making sure 
+			numberOfSelectedColorBalloons = numberOfBalloons;  
+			
+		//Debug.Log("numberOfSelectedColorBalloons = " + numberOfSelectedColorBalloons);
+		//Debug.Log("numberOfBalloons = " + numberOfBalloons);
+		
+		// set balloon colors
+		// set "selected color" balloons first
+		for (int i=0; i < numberOfSelectedColorBalloons; i++) 
+		{
+			int index = UnityEngine.Random.Range(0,numberOfBalloons);
+			if (balloons[index].balloonColor.Equals(defaultColor))	// value not set yet
+			{
+				balloons[index].balloonColorIndex = selectedColorIndex;
+				balloons[index].balloonColor = selectedColor;   
+				balloons[index].balloonColorName = selectedColorName;
+				//Debug.Log("selected color balloon created " + " index = " + index + ", " + balloons[index].balloonColor.ToString());
+			}
+			else
+			{
+				i--;  
+			}
+		}
+		
+		// set rest of the balloon colors randomly
+		for (int i=0; i < numberOfBalloons; i++) 
+		{
+			if (balloons[i].balloonColor.Equals(defaultColor))	// value not set yet
+			{
+				//Debug.Log ("default color " + balloons[i].balloonColor + " = " + defaultColor);
+				int index = UnityEngine.Random.Range(0,balloonColors.Length);
+				Color clr = balloonColors[index];
+				string clrStr = balloonColorStrings[index];
+				if (!clr.Equals(selectedColor))
+				{
+					//Debug.Log (clr + " != " + selectedColor);
+					balloons[i].balloonColor = clr;
+					balloons[i].balloonColorName = clrStr;
+					balloons[i].balloonColorIndex = index;
+					//Debug.Log (clr.ToString());
+				}
+				else 
+				{
+					i--; 
+				}
+			}
+		}
+	}
+	
+	public void StartGame()
+	{
+		//Debug.Log ("startgame");
+		
+		balloonsInstantiated = 0;
+		numberOfExistingBalloons = 0;
+		levelPoints = 0;
+		faults = 0;
+		//minGravity *= level * levelGravityMultiplier;
+		//maxGravity *= level * levelGravityMultiplier;
+		//float nofBalls = (float) numberOfBalloons * levelNOFBalloonsMultiplier;
+		//numberOfBalloons = (int) nofBalls;
+		//nofBalls = (float) numberOfSelectedColorBalloons * levelNOFBalloonsMultiplier;
+		//numberOfSelectedColorBalloons = (int) nofBalls;
+		pointText.GetComponent<Text>().text = levelPoints.ToString() + "/"+numberOfSelectedColorBalloons;
+		
+		// pick random color
+		int index = UnityEngine.Random.Range(0,balloonColors.Length);
+		selectedColor = balloonColors [index];
+		selectedColorName = balloonColorStrings [index];
+		selectedColorIndex = index;
+		//MeshRenderer exampleBalloon = gameObject.GetComponentInChildren<MeshRenderer>();
+		exampleBalloon.renderer.material.color = selectedColor;
+		faultBalloon1.renderer.material.color = Color.white;
+		faultBalloon2.renderer.material.color = Color.white;
+		faultBalloon3.renderer.material.color = Color.white;
+		
+		// show random color balloon
+		//		Quaternion rot = transform.rotation;
+		//		GameObject instance = Instantiate (balloon,Vector3.zero, rot) as GameObject;
+		//		instance.transform.localScale *= 3;
+		//		instance.renderer.material.color = selectedColor;
+		//
+		//		instance.rigidbody2D.gravityScale = 0;
+		//
+		//		Destroy (instance, 3.0f);
+		//
+		CreateBalloons ();
+		gameStarted = true;
+		startTime = Time.time;
+	}
+	
+	public void AddPoint()
+	{
+		levelPoints ++;
+		totalPoints++;
+		pointText.GetComponent<Text>().text = levelPoints.ToString() + "/"+numberOfSelectedColorBalloons;
+		//SoundManager.instance.PlaySingle(SoundManager.instance.pop);
+	}
+	
+	public void AddFault()
+	{
+		faults ++;
+		//SoundManager.instance.PlaySingle(SoundManager.instance.deflate);
+		
+		switch (faults)
+		{
+		
+			case 1:
+				//faultBalloon = GameObject.FindWithTag("BalloonFault1");
+				faultBalloon1.renderer.material.color = Color.gray;
+				break;
+			case 2:
+				//faultBalloon = GameObject.FindWithTag("BalloonFault2");
+				faultBalloon2.renderer.material.color = Color.gray;
+			break;
+			case 3:
+				//faultBalloon = GameObject.FindWithTag("BalloonFault3");
+				faultBalloon3.renderer.material.color = Color.gray;
+				GameFailed();
+			break; 	
+			default:
+				break;
+		}
+		
+		//Text pointText = gameObject.GetComponentInChildren<Text>();
+		//pointText = points.ToString();
+	}
+	
+	private void GameFailed()
+	{
+		// ilmoitetaan lopputulos GameFailed
+		
+		//Debug.Log ("Game Failed");
+		gameStarted = false;
+		GameMenuManager.instance.ShowGameFailedMenu(levelPoints, totalPoints, level);
+	}
+	
+	private void ShowNextLevelMenu()
+	{
+		//Debug.Log ("ShowNextLevelMenu");
+		// ilmoitetaan lopputulos ja Next Level
+		//gameStarted = false;
+		GameMenuManager.instance.ShowNextLevelMenu(levelPoints, totalPoints, level);
+	}
+	
+	public void StartNextLevel()
+	{
+		//Debug.Log ("Start Next Level");
+		level++;
+		minGravity -= levelGravityIncrease;
+		maxGravity -= levelGravityIncrease;
+		numberOfBalloons += levelNOFBalloonsIncrease;
+		numberOfSelectedColorBalloons += levelNOFSelectedBalloonsIncrease;
+		levelText.GetComponent<Text>().text = "Level " + level.ToString();
+		StartGame();
+	}
+
+}

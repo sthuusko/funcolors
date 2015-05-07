@@ -1,0 +1,581 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630 (ID=0xfc2)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.033 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Opiskelija\Documents\SH\unity\Projects\Ilmapallo_2015_02_24\Ilmapallo_2015_02_17\Ilmapallo_2005_02_17\Ilmapallo\ilmapallo_Data\Managed\System.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1788)
+
+-38.06461, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+523.2863, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-183.9346, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-211.2014, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+480.6152, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-460.5118, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-534.064, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+37.4095, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-11.55761, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-401.5329, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+138.3539, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+205.373, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+326.2432, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-245.2877, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+11.27352, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-506.1026, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-529.2321, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+25.3499, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+532.3054, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-388.9402, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-34.46548, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+315.243, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+132.3921, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-91.93211, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-91.82163, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-325.9797, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-88.45774, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+166.0276, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+372.1234, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-131.29, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+529.7806, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-145.9538, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-564.9119, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-487.5885, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-207.249, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+33.4773, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+355.467, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-535.8726, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-273.396, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+491.4119, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+351.0287, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+502.9377, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+296.5153, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-436.6053, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-132.69, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-69.26819, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+235.8258, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-513.0009, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+-448.6518, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+491.2771, -1428
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.500, 0.500, 0.500, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.500, 0.500, 0.500, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.500, 0.500, 0.500, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.500, 0.500, 0.500, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.500, 0.500, 0.500, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 1.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 1.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(0.000, 0.000, 0.000, 0.000) = RGBA(0.000, 0.000, 0.000, 0.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+RGBA(1.000, 0.000, 0.000, 1.000) != RGBA(1.000, 0.922, 0.016, 1.000)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+painettu
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
